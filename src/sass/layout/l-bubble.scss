@@ -1,0 +1,40 @@
+.l-bubble {
+    position: relative;
+
+    padding: 80px 85px;
+
+    border-radius: 150px;
+    border-bottom-left-radius: 0;
+    background-color: #fff;
+
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: -65px;
+
+        display: block;
+
+        width: 65px;
+        height: 54px;
+
+        content: '';
+
+        background-image: url('#{$path-image}/bubble-end.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    // MODIFIER
+    &.l-bubble--flipped {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 150px;
+
+        &:after {
+            right: -65px;
+            left: auto;
+
+            transform: scaleX(-1);
+        }
+    }
+}

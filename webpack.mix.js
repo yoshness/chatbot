@@ -7,5 +7,5 @@ mix.sass('src/sass/style.scss', `${ASSETS_FOLDER}/css`)
     .options({
 		processCssUrls: false,
     })
-    // .copyDirectory('src/fonts', `${ASSETS_FOLDER}/fonts`)
-    // .copyDirectory('src/images', `${ASSETS_FOLDER}/images`);
+    .copyDirectory('src/fonts', `${ASSETS_FOLDER}/fonts`)
+    .copyDirectory('src/images', `${ASSETS_FOLDER}/images`);

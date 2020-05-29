@@ -5,6 +5,14 @@
 @import 'lib/media-queries';
 @import 'lib/utility';
 
-// @import 'modules/hero';
+@import 'modules/header';
+@import 'modules/hero';
+@import 'modules/section-title';
+@import 'modules/info-block';
 
 @import 'layout/l-container';
+@import 'layout/l-bubble';
+@import 'layout/l-about';
+@import 'layout/l-benefit';
+@import 'layout/l-failure';
+@import 'layout/l-point';

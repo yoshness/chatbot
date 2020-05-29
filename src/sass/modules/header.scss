@@ -1,0 +1,53 @@
+.header {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 45px 75px;
+}
+.header__logo {
+    img {
+        width: 280px;
+    }
+}
+
+.header__nav-list {
+    list-style-type: none;
+}
+.header__nav-item {
+    margin-right: 50px;
+
+    a {
+        font-size: 15px;
+
+        color: #fff;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    // MODIFIER
+    &.header__nav-item--button {
+        line-height: 2.9;
+
+        position: relative;
+        top: -10px;
+
+        width: 160px;
+        height: 40px;
+
+        text-align: center;
+
+        background-image: url('#{$path-image}/hero-button-bg.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+
+        a {
+            font-size: 13px;
+        }
+    }
+}

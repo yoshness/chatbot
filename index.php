@@ -16,8 +16,13 @@
 	<link rel="shortcut icon" type="image/png" href="public/images/favicon.png"/>
 </head>
 <body>
+	<?php include 'partials/header.php'; ?>
 	<main>
-		<div class="l-container">Hello world</div>
+		<?php include 'partials/hero.php'; ?>
+		<?php include 'partials/about.php'; ?>
+		<?php include 'partials/benefit.php'; ?>
+		<?php include 'partials/failure.php'; ?>
+		<?php include 'partials/point.php'; ?>
 	</main>
 	<script type="text/javascript" src="public/js/app.js"></script>
 </body>

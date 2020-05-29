@@ -1,19 +1,27 @@
 .u-show-pc {
-  display: block;
+    display: block;
 
-  @include max-screen($breakpoint-mobile) {
-    display: none;
-  }
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
 }
 
 .u-show-sp {
-  display: none;
+    display: none;
 
-  @include max-screen($breakpoint-mobile) {
-    display: block;
-  }
+    @include max-screen($breakpoint-mobile) {
+        display: block;
+    }
 }
 
 .u-notap {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.u-flex {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
