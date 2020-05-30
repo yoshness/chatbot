@@ -4,11 +4,17 @@
 
 @import 'lib/media-queries';
 @import 'lib/utility';
+@import 'lib/slick';
+@import 'lib/icons';
 
 @import 'modules/header';
 @import 'modules/hero';
 @import 'modules/section-title';
 @import 'modules/info-block';
+@import 'modules/testimony';
+@import 'modules/faq-block';
+@import 'modules/contact';
+@import 'modules/footer';
 
 @import 'layout/l-container';
 @import 'layout/l-bubble';
@@ -16,3 +22,7 @@
 @import 'layout/l-benefit';
 @import 'layout/l-failure';
 @import 'layout/l-point';
+@import 'layout/l-testimonies';
+@import 'layout/l-faq';
+@import 'layout/l-flow';
+@import 'layout/l-contact';

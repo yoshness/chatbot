@@ -2,4 +2,10 @@ import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
 
-console.log("Let's begin!");
+import initSlider from './modules/init-slider';
+import initTabs from './modules/init-tabs';
+import scrolLToElement from './modules/scroll-to-element';
+
+initSlider();
+initTabs();
+scrolLToElement();

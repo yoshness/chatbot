@@ -83,6 +83,7 @@
     margin-right: 60px;
     padding: 14px 0 19px;
 
+    transition: opacity $duration $easing;
     text-align: center;
 
     color: #fff;
@@ -90,6 +91,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    &:hover {
+        opacity: .8;
+    }
 
     p {
         &:first-child {

@@ -22,7 +22,13 @@
     a {
         font-size: 15px;
 
+        transition: opacity $duration $easing;
+
         color: #fff;
+
+        &:hover {
+            opacity: .6;
+        }
     }
 
     &:last-child {
@@ -48,6 +54,8 @@
 
         a {
             font-size: 13px;
+
+            display: block;
         }
     }
 }

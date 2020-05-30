@@ -1,4 +1,4 @@
-<section class="l-about">
+<section class="l-about" id="js-about-section">
 	<div class="l-container l-bubble">
 		<div class="l-about__content u-flex">
 			<figure class="l-about__left">

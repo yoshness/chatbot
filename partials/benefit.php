@@ -1,8 +1,8 @@
-<section class="l-benefit">
+<section class="l-benefit" id="js-benefit-section">
 	<div class="l-container l-bubble l-bubble--flipped">
 		<h2 class="section-title">
 			<span class="section-title-en">BENEFIT</span>
-			<span class="section-title-ja">チャットボット導入メリット </span>
+			<span class="section-title-ja">チャットボット導入メリット</span>
 		</h2>
 		<ul class="l-benefit__list u-flex">
 			<li class="l-benefit__item">

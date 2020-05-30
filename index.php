@@ -18,12 +18,20 @@
 <body>
 	<?php include 'partials/header.php'; ?>
 	<main>
-		<?php include 'partials/hero.php'; ?>
-		<?php include 'partials/about.php'; ?>
-		<?php include 'partials/benefit.php'; ?>
-		<?php include 'partials/failure.php'; ?>
-		<?php include 'partials/point.php'; ?>
+	<?php
+		$request = $_SERVER['REQUEST_URI'];
+
+		switch ($request) {
+		    case '/company' :
+		        require __DIR__ . '/views/company.php';
+		        break;
+		    default:
+	        	require __DIR__ . '/views/index.php';
+		        break;
+	    }
+    ?>
 	</main>
+	<?php include 'partials/footer.php'; ?>
 	<script type="text/javascript" src="public/js/app.js"></script>
 </body>
 </html>
