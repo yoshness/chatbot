@@ -4,8 +4,8 @@ window.$ = $;
 
 import initSlider from './modules/init-slider';
 import initTabs from './modules/init-tabs';
-import scrolLToElement from './modules/scroll-to-element';
+import scrollToElement from './modules/scroll-to-element';
 
 initSlider();
 initTabs();
-scrolLToElement();
+scrollToElement();

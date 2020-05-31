@@ -12,7 +12,7 @@ body {
   overflow: hidden;
   position: relative;
 
-  * {
+  a, li, input[type="text"], textarea {
     &:focus {
       outline: none;
     }

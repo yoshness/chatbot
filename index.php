@@ -17,13 +17,27 @@
 </head>
 <body>
 	<?php 
+		$company = $_POST['company'];
+		$person = $_POST['person'];
+		$address = $_POST['address'];
+		$message = $_POST['message'];
+		$formcontent="会社名: $company \n担当名: $person \nメールアドレス: $address \n備考・ご要望: $message";
+		$recipient = "josiah.dabuet@gmail.com";
+		$subject = "Contact Form";
+		$mailheader = "From: admin@cebushun.sakura.ne.jp \r\n";
+
+		if($company && $person && $address) {
+			mail($recipient, $subject, $formcontent, $mailheader);
+		}
+	?>
+	<?php 
 		$request = $_SERVER['REQUEST_URI'];
 		if($request == '/company') {
 			$header_modifier = 'header--gray';
 		}
 
+		include 'partials/header.php';
 	?>
-	<?php include 'partials/header.php'; ?>
 	<main>
 	<?php
 		switch ($request) {
