@@ -1,0 +1,26 @@
+.l-company {
+    padding: 200px 0;
+
+    text-align: center;
+
+    .section-title {
+        width: 530px;
+        margin: 0 auto 100px;
+        padding: 30px 0;
+
+        border-radius: 80px;
+        background-color: #fff;
+    }
+    .section-title-en {
+        font-size: 15px;
+
+        margin-bottom: 0;
+    }
+    .section-title-ja {
+        font-size: 30px;
+
+        &:before {
+            display: none;
+        }
+    }
+}

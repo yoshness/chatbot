@@ -6,6 +6,22 @@
 
     width: 100%;
     padding: 45px 75px;
+
+    // MODIFIER
+    &.header--gray {
+        .header__logo {
+            img {
+                opacity: .7;
+
+                filter: invert(100%);
+            }
+        }
+        .header__nav-item:not(.header__nav-item--button) {
+            a {
+                color: #747474;
+            }
+        }
+    }
 }
 .header__logo {
     img {

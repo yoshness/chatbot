@@ -1,0 +1,29 @@
+.company {
+    width: 725px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.company__list {
+    text-align: left;
+
+    dt,
+    dd {
+        font-family: $font-hiragino;
+        font-size: 15px;
+
+        padding: 50px 25px 25px;
+
+        border-bottom: 1px solid #e7e7e7;
+
+        &:first-of-type {
+            padding-top: 0;
+        }
+    }
+    dt {
+        width: 20%;
+    }
+    dd {
+        width: 80%;
+    }
+}

@@ -16,11 +16,16 @@
 	<link rel="shortcut icon" type="image/png" href="public/images/favicon.png"/>
 </head>
 <body>
+	<?php 
+		$request = $_SERVER['REQUEST_URI'];
+		if($request == '/company') {
+			$header_modifier = 'header--gray';
+		}
+
+	?>
 	<?php include 'partials/header.php'; ?>
 	<main>
 	<?php
-		$request = $_SERVER['REQUEST_URI'];
-
 		switch ($request) {
 		    case '/company' :
 		        require __DIR__ . '/views/company.php';

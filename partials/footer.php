@@ -8,7 +8,7 @@
 		<nav class="footer__nav">
 			<ul class="footer__nav-list u-flex">
 				<li class="footer__nav-item">
-					<a href="#">運営会社</a>
+					<a href="/company">運営会社</a>
 				</li>
 				<li class="footer__nav-item">
 					<a href="#">プライバシポリシー</a>
