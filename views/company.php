@@ -21,4 +21,8 @@
 			</ul>
 		</div>
 	</div>
+	<div class="l-company__decors">
+		<div class="l-company__decors-left js-parallax" data-speed="1"></div>
+		<div class="l-company__decors-right js-parallax" data-speed="1.5"></div>
+	</div>
 </section>

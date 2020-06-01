@@ -1,9 +1,14 @@
 .l-company {
+    position: relative;
+
     padding: 200px 0;
 
     text-align: center;
 
     .section-title {
+        position: relative;
+        z-index: 1;
+
         width: 530px;
         margin: 0 auto 100px;
         padding: 30px 0;
@@ -23,4 +28,31 @@
             display: none;
         }
     }
+}
+.l-company__decors-left {
+    top: 120px;
+    left: 0;
+
+    width: 718px;
+    height: 624px;
+
+    background-image: url('#{$path-image}/decors/company-1.png');
+}
+.l-company__decors-right {
+    right: 0;
+    bottom: 250px;
+
+    width: 485px;
+    height: 403px;
+
+    background-image: url('#{$path-image}/decors/company-2.png');
+}
+.l-company__decors-left,
+.l-company__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

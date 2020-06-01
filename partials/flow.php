@@ -35,6 +35,6 @@
 		</ul>
 	</div>
 	<div class="l-flow__decors">
-		<div class="l-flow__decors-right"></div>
+		<div class="l-flow__decors-right js-parallax" data-speed="1"></div>
 	</div>
 </section>

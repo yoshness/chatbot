@@ -35,7 +35,7 @@
 		</ul>
 	</div>
 	<div class="l-benefit__decors">
-		<div class="l-benefit__decors-left"></div>
-		<div class="l-benefit__decors-right"></div>
+		<div class="l-benefit__decors-left js-parallax" data-speed="1.8"></div>
+		<div class="l-benefit__decors-right js-parallax" data-speed="1"></div>
 	</div>
 </section>

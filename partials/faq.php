@@ -48,7 +48,7 @@
 		</ul>
 	</div>
 	<div class="l-faq__decors">
-		<div class="l-faq__decors-left"></div>
-		<div class="l-faq__decors-right"></div>
+		<div class="l-faq__decors-left js-parallax" data-speed="1"></div>
+		<div class="l-faq__decors-right js-parallax" data-speed="1.5"></div>
 	</div>
 </section>

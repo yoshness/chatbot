@@ -53,7 +53,7 @@
 		</ul>
 	</div>
 	<div class="l-point__decors">
-		<div class="l-point__decors-left"></div>
-		<div class="l-point__decors-right"></div>
+		<div class="l-point__decors-left js-parallax" data-speed="2"></div>
+		<div class="l-point__decors-right js-parallax" data-speed="1.8"></div>
 	</div>
 </section>
