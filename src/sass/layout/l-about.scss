@@ -1,4 +1,6 @@
 .l-about {
+    position: relative;
+
     padding: 115px 0 80px;
 }
 .l-about__left {
@@ -17,4 +19,31 @@
     margin-bottom: 30px;
 
     color: #747474;
+}
+.l-about__decors-left {
+    top: 210px;
+    left: 0;
+
+    width: 722px;
+    height: 670px;
+
+    background-image: url('#{$path-image}/decors/2.png');
+}
+.l-about__decors-right {
+    top: 50px;
+    right: 0;
+
+    width: 355px;
+    height: 377px;
+
+    background-image: url('#{$path-image}/decors/1.png');
+}
+.l-about__decors-left,
+.l-about__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

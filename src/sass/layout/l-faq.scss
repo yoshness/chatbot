@@ -1,4 +1,6 @@
 .l-faq {
+    position: relative;
+
     margin: 100px auto 0;
 
     text-align: center;
@@ -75,4 +77,31 @@
 
         background-color: #795888;
     }
+}
+.l-faq__decors-left {
+    bottom: -70px;
+    left: 0;
+
+    width: 406px;
+    height: 470px;
+
+    background-image: url('#{$path-image}/decors/10.png');
+}
+.l-faq__decors-right {
+    top: -500px;
+    right: 0;
+
+    width: 575px;
+    height: 577px;
+
+    background-image: url('#{$path-image}/decors/9.png');
+}
+.l-faq__decors-left,
+.l-faq__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

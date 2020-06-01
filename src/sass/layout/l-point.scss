@@ -1,4 +1,6 @@
 .l-point {
+    position: relative;
+
     margin: 80px auto 0;
 
     text-align: center;
@@ -69,4 +71,31 @@
             height: 165px;
         }
     }
+}
+.l-point__decors-left {
+    bottom: -199px;
+    left: 0;
+
+    width: 535px;
+    height: 591px;
+
+    background-image: url('#{$path-image}/decors/8.png');
+}
+.l-point__decors-right {
+    right: 0;
+    bottom: 380px;
+
+    width: 544px;
+    height: 606px;
+
+    background-image: url('#{$path-image}/decors/7.png');
+}
+.l-point__decors-left,
+.l-point__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

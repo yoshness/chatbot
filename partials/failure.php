@@ -52,4 +52,8 @@
 			</li>
 		</ul>
 	</div>
+	<div class="l-failure__decors">
+		<div class="l-failure__decors-left"></div>
+		<div class="l-failure__decors-right"></div>
+	</div>
 </section>

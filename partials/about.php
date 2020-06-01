@@ -18,4 +18,8 @@
 			</div>
 		</div>
 	</div>
+	<div class="l-about__decors">
+		<div class="l-about__decors-left"></div>
+		<div class="l-about__decors-right"></div>
+	</div>
 </section>

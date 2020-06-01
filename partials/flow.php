@@ -34,4 +34,7 @@
 			</li>
 		</ul>
 	</div>
+	<div class="l-flow__decors">
+		<div class="l-flow__decors-right"></div>
+	</div>
 </section>

@@ -52,4 +52,8 @@
 			</li>
 		</ul>
 	</div>
+	<div class="l-point__decors">
+		<div class="l-point__decors-left"></div>
+		<div class="l-point__decors-right"></div>
+	</div>
 </section>

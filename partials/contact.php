@@ -30,4 +30,8 @@
 			<?php } ?>
 		</form>
 	</div>
+	<div class="l-contact__decors">
+		<div class="l-contact__decors-left"></div>
+		<div class="l-contact__decors-right"></div>
+	</div>
 </section>

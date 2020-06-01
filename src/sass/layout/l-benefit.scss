@@ -1,4 +1,6 @@
 .l-benefit {
+    position: relative;
+
     text-align: center;
 }
 .l-benefit__list {
@@ -28,4 +30,31 @@
         border-radius: 30px;
         background-color: #cdc8f0;
     }
+}
+.l-benefit__decors-left {
+    bottom: -199px;
+    left: 0;
+
+    width: 386px;
+    height: 386px;
+
+    background-image: url('#{$path-image}/decors/4.png');
+}
+.l-benefit__decors-right {
+    right: 0;
+    bottom: -500px;
+
+    width: 676px;
+    height: 685px;
+
+    background-image: url('#{$path-image}/decors/3.png');
+}
+.l-benefit__decors-left,
+.l-benefit__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

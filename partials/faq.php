@@ -47,4 +47,8 @@
 			</li>
 		</ul>
 	</div>
+	<div class="l-faq__decors">
+		<div class="l-faq__decors-left"></div>
+		<div class="l-faq__decors-right"></div>
+	</div>
 </section>

@@ -1,15 +1,44 @@
 .l-contact {
     position: relative;
 
-    margin: 100px auto;
+    margin: 130px auto 100px;
 
     text-align: center;
 
     .l-container {
+        z-index: 1;
+
         padding-top: 60px;
         padding-bottom: 100px;
 
         border-radius: 150px;
         background-color: #fff;
     }
+}
+.l-contact__decors-left {
+    top: -50px;
+    left: 0;
+
+    width: 335px;
+    height: 688px;
+
+    background-image: url('#{$path-image}/decors/12.png');
+}
+.l-contact__decors-right {
+    right: -60px;
+    bottom: 150px;
+
+    width: 427px;
+    height: 366px;
+
+    background-image: url('#{$path-image}/decors/13.png');
+}
+.l-contact__decors-left,
+.l-contact__decors-right {
+    position: absolute;
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

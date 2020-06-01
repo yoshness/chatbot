@@ -1,6 +1,8 @@
 .l-flow {
+    position: relative;
+
     margin: 100px auto 0;
-    padding: 120px 0 180px;
+    padding: 120px 0 280px;
 
     text-align: center;
 
@@ -9,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
+
+    .l-container {
+        z-index: 1;
+    }
 
     .section-title-ja {
         &:before {
@@ -64,4 +70,18 @@
     .info-block__description {
         text-align: center;
     }
+}
+.l-flow__decors-right {
+    position: absolute;
+    z-index: 0;
+    right: -180px;
+    bottom: 130px;
+
+    width: 527px;
+    height: 450px;
+
+    background-image: url('#{$path-image}/decors/11.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

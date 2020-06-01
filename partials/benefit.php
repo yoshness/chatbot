@@ -34,4 +34,8 @@
 			</li>
 		</ul>
 	</div>
+	<div class="l-benefit__decors">
+		<div class="l-benefit__decors-left"></div>
+		<div class="l-benefit__decors-right"></div>
+	</div>
 </section>
