@@ -7,6 +7,10 @@
     width: 100%;
     padding: 45px 75px;
 
+    @include max-screen($breakpoint-mobile) {
+        display: none;
+    }
+
     // MODIFIER
     &.header--gray {
         .header__logo {

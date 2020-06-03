@@ -5,6 +5,11 @@
 
     text-align: center;
 
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 40px;
+        padding: 0 30px;
+    }
+
     .l-container {
         z-index: 1;
 
@@ -13,6 +18,12 @@
 
         border-radius: 150px;
         background-color: #fff;
+
+        @include max-screen($breakpoint-mobile) {
+            padding: 60px 40px;
+
+            border-radius: 50px;
+        }
     }
 }
 .l-contact__decors-left {

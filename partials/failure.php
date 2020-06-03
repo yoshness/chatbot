@@ -2,9 +2,9 @@
 	<div class="l-container l-bubble">
 		<h2 class="section-title">
 			<span class="section-title-en">FAILURE EXAMPLE</span>
-			<span class="section-title-ja">チャットボット導入時の失敗例 </span>
+			<span class="section-title-ja">チャットボット<br class="u-show-sp">導入時の失敗例 </span>
 		</h2>
-		<ul class="l-failure__list u-flex">
+		<ul class="l-failure__list u-flex" id="js-failure-slider">
 			<li class="l-failure__item">
 				<div class="info-block">
 					<h3 class="info-block__title">対応範囲の検討不足</h3>
@@ -52,7 +52,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="l-failure__decors">
+	<div class="l-failure__decors u-show-pc">
 		<div class="l-failure__decors-left js-parallax" data-speed="1.8"></div>
 		<div class="l-failure__decors-right js-parallax" data-speed="1.4"></div>
 	</div>

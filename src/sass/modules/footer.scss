@@ -2,12 +2,27 @@
     width: 100%;
 }
 .footer__logo {
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+
+        text-align: center;
+    }
     img {
         width: 280px;
 
         opacity: .5;
 
         filter: invert(100%);
+        @include max-screen($breakpoint-mobile) {
+            width: 230px;
+
+            opacity: .25;
+        }
+    }
+}
+.footer__nav {
+    @include max-screen($breakpoint-mobile) {
+        display: none;
     }
 }
 .footer__nav-list {
@@ -34,8 +49,16 @@
 
     color: #bfc0c1;
 
+    @include max-screen($breakpoint-mobile) {
+        padding: 20px 0 30px;
+    }
+
     small {
         font-family: $font-hiragino;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 11px;
+        }
     }
 }
 .footer__icon {

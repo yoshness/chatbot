@@ -6,12 +6,29 @@
 .l-about__left {
     width: 48%;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+    }
+
     img {
         width: 100%;
     }
 }
 .l-about__right {
     width: 43%;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    img {
+        @include max-screen($breakpoint-mobile) {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
 }
 .l-about__description {
     line-height: 1.8;
@@ -19,6 +36,21 @@
     margin-bottom: 30px;
 
     color: #747474;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+
+        margin-bottom: 20px;
+
+        text-align: left;
+        letter-spacing: .125em;
+    }
+
+    &:last-child {
+        @include max-screen($breakpoint-mobile) {
+            margin-bottom: 15px;
+        }
+    }
 }
 .l-about__decors-left {
     top: 320px;

@@ -10,6 +10,12 @@
     margin-bottom: 10px;
 
     text-transform: uppercase;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 14px;
+
+        margin-bottom: 0;
+    }
 }
 .section-title-ja {
     font-family: $font-noto-bold;
@@ -19,6 +25,10 @@
     z-index: 0;
 
     display: inline-block;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 25px;
+    }
 
     &:before {
         position: absolute;

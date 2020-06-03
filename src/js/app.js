@@ -2,12 +2,12 @@ import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
 
-import initSlider from './modules/init-slider';
+import initSliders from './modules/init-sliders';
 import initTabs from './modules/init-tabs';
 import initParallax from './modules/init-parallax';
 import scrollToElement from './modules/scroll-to-element';
 
-initSlider();
+initSliders();
 initTabs();
 initParallax();
 scrollToElement();

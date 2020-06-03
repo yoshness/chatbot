@@ -9,73 +9,63 @@
     margin-top: 60px;
 
     list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
 }
 .l-faq__item {
     position: relative;
 
     margin-bottom: 30px;
 
+    @include max-screen($breakpoint-mobile) {
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    &:hover {
+        &:not(.is-active) {
+            .faq-block {
+                color: #fff;
+                background-color: #6000ff;
+            }
+            .faq-block__icon {
+                &:before,
+                &:after {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+
     &.is-active {
         .faq-block {
             height: 100%;
-            padding-top: 30px;
-            padding-bottom: 30px;
 
             color: #fff;
+            border-radius: 100px;
+            background-color: #6000ff;
 
-            &:before {
-                height: 100%;
-
-                border-radius: 100px;
-                background: linear-gradient( #453cff 0%, #5f02ff 100%);
+            @include max-screen($breakpoint-mobile) {
+                border-radius: 35px;
             }
+
             .faq-block__answer {
                 opacity: 1;
             }
+            .faq-block__icon {
+                &:before {
+                    display: none;
+                }
+                &:after {
+                    transform: rotate(0);
+
+                    background-color: #fff;
+                }
+            }
         }
-
-        &:before {
-            display: none;
-        }
-        &:after {
-            transform: rotate(0);
-
-            background-color: #fff;
-        }
-    }
-
-    &:before {
-        position: absolute;
-        z-index: 1;
-        top: 50%;
-        right: 50px;
-
-        display: block;
-
-        width: 15px;
-        height: 3px;
-
-        content: '';
-        transition: all $duration $easing;
-        transform: translateY(-50%);
-
-        background-color: #795888;
-    }
-    &:after {
-        position: absolute;
-        top: 50%;
-        right: 50px;
-
-        display: block;
-
-        width: 15px;
-        height: 3px;
-
-        content: '';
-        transition: all $duration $easing;
-        transform: translateY(-50%) rotate(90deg);
-
-        background-color: #795888;
     }
 }
 .l-faq__decors-left {

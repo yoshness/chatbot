@@ -2,7 +2,7 @@
 	<div class="l-container l-bubble l-bubble--flipped">
 		<h2 class="section-title">
 			<span class="section-title-en">POINT</span>
-			<span class="section-title-ja">チャットボットを選ぶポイント </span>
+			<span class="section-title-ja">チャットボットを<br class="u-show-sp">選ぶポイント </span>
 		</h2>
 		<ul class="l-point__list u-flex">
 			<li class="l-point__item">
@@ -52,7 +52,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="l-point__decors">
+	<div class="l-point__decors u-show-pc">
 		<div class="l-point__decors-left js-parallax" data-speed="2"></div>
 		<div class="l-point__decors-right js-parallax" data-speed="1.8"></div>
 	</div>

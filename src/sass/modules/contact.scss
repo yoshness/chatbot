@@ -4,6 +4,11 @@
     width: 575px;
     margin: 80px auto 0;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-top: 55px;
+    }
+
     input[type='submit'] {
         width: 375px;
         padding: 15px 0;
@@ -14,6 +19,10 @@
 
         color: #fff;
         background-image: linear-gradient(-67.548deg, #50f 0%, #00e5ff 100%);
+
+        @include max-screen($breakpoint-mobile) {
+            width: 100%;
+        }
 
         &:hover {
             opacity: .8;
@@ -68,6 +77,10 @@
         border: 1px solid #e3e3e3;
         background-color: #f9f9f9;
 
+        @include max-screen($breakpoint-mobile) {
+            margin-bottom: 30px;
+        }
+
         ::placeholder {
             color: #e3e3e3;
         }
@@ -93,6 +106,10 @@
 
                 color: #fff;
                 background-color: #50f;
+
+                @include max-screen($breakpoint-mobile) {
+                    right: -70px;
+                }
             }
         }
     }

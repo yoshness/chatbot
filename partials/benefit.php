@@ -2,7 +2,7 @@
 	<div class="l-container l-bubble l-bubble--flipped">
 		<h2 class="section-title">
 			<span class="section-title-en">BENEFIT</span>
-			<span class="section-title-ja">チャットボット導入メリット</span>
+			<span class="section-title-ja">チャットボット<br class="u-show-sp">導入メリット</span>
 		</h2>
 		<ul class="l-benefit__list u-flex">
 			<li class="l-benefit__item">
@@ -34,7 +34,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="l-benefit__decors">
+	<div class="l-benefit__decors u-show-pc">
 		<div class="l-benefit__decors-left js-parallax" data-speed="1.8"></div>
 		<div class="l-benefit__decors-right js-parallax" data-speed="1"></div>
 	</div>

@@ -6,12 +6,22 @@
     border-radius: 30px;
     background-color: #fff;
 
+    @include max-screen($breakpoint-mobile) {
+        margin-left: 5px;
+        padding: 35px 20px;
+
+        border-radius: 13px;
+    }
+
     img {
         width: 100%;
         height: 175px;
-        margin-bottom: 40px;
+        margin: 0 auto 40px;
 
         object-fit: contain;
+        @include max-screen($breakpoint-mobile) {
+            margin: 0 auto 25px;
+        }
     }
 }
 .info-block__title {
@@ -19,10 +29,23 @@
     font-size: 23px;
 
     margin-bottom: 50px;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 20px;
+
+        margin-bottom: 25px;
+    }
 }
 .info-block__description {
     text-align: left;
     letter-spacing: .05em;
 
     color: #747474;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+        line-height: 1.8;
+
+        letter-spacing: .1em;
+    }
 }

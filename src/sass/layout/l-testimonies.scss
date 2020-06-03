@@ -9,6 +9,12 @@
 
     border-radius: 5%;
     background-color: #fff;
+
+    @include max-screen($breakpoint-mobile) {
+        padding-bottom: 50px;
+
+        border-radius: 0;
+    }
 }
 .l-testimonies__list {
     margin-top: 80px;
@@ -16,6 +22,11 @@
     list-style-type: none;
 
     text-align: left;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
 
     .slick-slide {
         &:not(.slick-active) {
@@ -41,6 +52,9 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        @include max-screen($breakpoint-mobile) {
+            margin: 10px auto 0;
+        }
 
         li {
             width: 15px;
@@ -54,6 +68,11 @@
             border-radius: 100%;
             background-color: #fff;
 
+            @include max-screen($breakpoint-mobile) {
+                width: 10px;
+                height: 10px;
+            }
+
             &:hover {
                 opacity: .8;
             }
@@ -64,6 +83,11 @@
 
                 border: none;
                 background-color: #8178ff;
+
+                @include max-screen($breakpoint-mobile) {
+                    width: 15px;
+                    height: 15px;
+                }
             }
         }
     }

@@ -8,6 +8,14 @@
     border-bottom-left-radius: 0;
     background-color: #fff;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 90%;
+        padding: 30px 15px;
+
+        border-radius: 50px;
+        border-bottom-left-radius: 0;
+    }
+
     &:after {
         position: absolute;
         bottom: 0;
@@ -24,6 +32,13 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+
+        @include max-screen($breakpoint-mobile) {
+            left: -15px;
+
+            width: 15px;
+            height: 15px;
+        }
     }
 
     // MODIFIER
@@ -31,11 +46,19 @@
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 150px;
 
+        @include max-screen($breakpoint-mobile) {
+            border-bottom-left-radius: 50px;
+        }
+
         &:after {
             right: -65px;
             left: auto;
 
             transform: scaleX(-1);
+
+            @include max-screen($breakpoint-mobile) {
+                right: -15px;
+            }
         }
     }
 }

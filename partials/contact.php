@@ -30,7 +30,7 @@
 			<?php } ?>
 		</form>
 	</div>
-	<div class="l-contact__decors">
+	<div class="l-contact__decors u-show-pc">
 		<div class="l-contact__decors-left js-parallax" data-speed="2"></div>
 		<div class="l-contact__decors-right js-parallax" data-speed="1.5"></div>
 	</div>

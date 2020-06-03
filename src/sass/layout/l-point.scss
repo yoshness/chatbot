@@ -13,6 +13,9 @@
     counter-reset: point;
 
     justify-content: center;
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 50px;
+    }
 }
 .l-point__item {
     position: relative;
@@ -23,6 +26,12 @@
     margin-bottom: 50px;
 
     counter-increment: point;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
 
     &:before {
         position: absolute;
@@ -39,6 +48,15 @@
 
         border-radius: 30px;
         background-color: #cdc8f0;
+
+        @include max-screen($breakpoint-mobile) {
+            top: 5px;
+            left: -1px;
+
+            height: 100%;
+
+            border-radius: 15px;
+        }
     }
 
     &:after {
@@ -55,6 +73,13 @@
 
         color: #fff;
         background-image: linear-gradient( -67.548deg, rgb(85,0,255) 0%, rgb(0,229,255) 100%);
+
+        @include max-screen($breakpoint-mobile) {
+            left: 20px;
+
+            width: 70px;
+            padding: 6px 0;
+        }
     }
 
     &:last-child {
@@ -63,6 +88,10 @@
 
     .info-block {
         padding-left: 60px;
+
+        @include max-screen($breakpoint-mobile) {
+            padding-left: 20px;
+        }
 
         .info-block__title {
             margin-bottom: 30px;

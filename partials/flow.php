@@ -2,10 +2,11 @@
 	<div class="l-container">
 		<h2 class="section-title">
 			<span class="section-title-en">FLOW</span>
-			<span class="section-title-ja">チャットボット導入までの流れ</span>
+			<span class="section-title-ja">チャットボット<br class="u-show-sp">導入までの流れ</span>
 		</h2>
-		<ul class="l-flow__list u-flex">
+		<ul class="l-flow__list u-flex" id="js-flow-slider">
 			<li class="l-flow__item">
+				<span class="l-flow__item-counter">STEP 1</span>
 				<div class="info-block">
 					<h3 class="info-block__title">導入の無料相談</h3>
 					<img src="public/images/flow-1.png" alt="">
@@ -15,6 +16,7 @@
 				</div>
 			</li>
 			<li class="l-flow__item">
+				<span class="l-flow__item-counter">STEP 2</span>
 				<div class="info-block">
 					<h3 class="info-block__title">ヒアリング・ご提案</h3>
 					<img src="public/images/flow-2.png" alt="">
@@ -24,6 +26,7 @@
 				</div>
 			</li>
 			<li class="l-flow__item">
+				<span class="l-flow__item-counter">STEP 3</span>
 				<div class="info-block">
 					<h3 class="info-block__title">チャットボット導入</h3>
 					<img src="public/images/flow-3.png" alt="">
@@ -34,7 +37,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="l-flow__decors">
+	<div class="l-flow__decors u-show-pc">
 		<div class="l-flow__decors-right js-parallax" data-speed="1"></div>
 	</div>
 </section>

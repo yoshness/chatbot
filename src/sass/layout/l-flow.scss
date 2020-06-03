@@ -12,6 +12,13 @@
     background-position: center center;
     background-size: 100% 100%;
 
+    @include max-screen($breakpoint-mobile) {
+        padding-bottom: 130px;
+
+        background-position: -400px center;
+        background-size: cover;
+    }
+
     .l-container {
         z-index: 1;
     }
@@ -26,6 +33,64 @@
     margin-top: 100px;
 
     list-style-type: none;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .slick-slide:not(.slick-cloned) {
+        counter-increment: flow;
+    }
+
+    .slick-list {
+        margin-top: -50px;
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+
+    .slick-slide {
+        &:not(.slick-active) {
+            .l-flow__item {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .slick-dots {
+        display: flex;
+
+        width: 60px;
+        margin: 30px auto 0;
+
+        list-style-type: none;
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            width: 10px;
+            height: 10px;
+
+            cursor: pointer;
+            transition: background-color $duration $easing,
+            opacity $duration $easing;
+
+            border: 2px solid #fff;
+            border-radius: 100%;
+
+            &.slick-active {
+                width: 15px;
+                height: 15px;
+
+                border: none;
+                background-color: #fff;
+            }
+        }
+    }
 }
 .l-flow__item {
     position: relative;
@@ -33,7 +98,10 @@
 
     width: 30%;
 
-    counter-increment: flow;
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        height: 100%;
+    }
 
     &:before {
         position: absolute;
@@ -50,18 +118,20 @@
 
         border-radius: 30px;
         background-color: #cdc8f0;
+
+        @include max-screen($breakpoint-mobile) {
+            top: 5px;
+            left: -1px;
+
+            height: 100%;
+
+            border-radius: 15px;
+        }
     }
-
-    &:after {
-        font-family: $font-montserrat;
-        font-size: 20px;
-
-        position: absolute;
-        top: -40px;
-        left: 50%;
-
-        content: 'STEP ' counter(flow);
-        transform: translateX(-50%);
+    .info-block {
+        @include max-screen($breakpoint-mobile) {
+            min-height: 410px;
+        }
     }
 
     .info-block__title {
@@ -70,6 +140,17 @@
     .info-block__description {
         text-align: center;
     }
+}
+.l-flow__item-counter {
+    font-family: $font-montserrat;
+    font-size: 20px;
+
+    position: absolute;
+    top: -40px;
+    left: 50%;
+
+    content: 'STEP ' counter(flow);
+    transform: translateX(-50%);
 }
 .l-flow__decors-right {
     position: absolute;

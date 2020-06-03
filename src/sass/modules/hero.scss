@@ -10,6 +10,14 @@
     background-position: center center;
     background-size: 100% 100%;
 
+    @include max-screen($breakpoint-mobile) {
+        padding: 110px 30px;
+
+        text-align: center;
+
+        background-size: cover;
+    }
+
     &:after {
         position: absolute;
         bottom: 0;
@@ -31,17 +39,40 @@
 .hero__phones {
     width: 40.5%;
 
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+
+        order: 2;
+        justify-content: center;
+    }
+
     img {
         width: 235px;
 
         &:last-of-type {
             position: relative;
             top: -60px;
+
+            @include max-screen($breakpoint-mobile) {
+                top: 70px;
+            }
         }
     }
 }
 .hero__details {
     width: 53%;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+
+        order: 1;
+    }
+}
+.hero__details-logo {
+    @include max-screen($breakpoint-mobile) {
+        width: 160px;
+        margin: 0 auto 25px;
+    }
 }
 .hero__title {
     font-size: 55px;
@@ -50,6 +81,13 @@
     letter-spacing: -.08em;
 
     color: #fff;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 20px;
+        line-height: 1.6;
+
+        letter-spacing: 0;
+    }
 }
 .hero__description {
     font-size: 18px;
@@ -59,17 +97,38 @@
     letter-spacing: -.03em;
 
     color: #fff;
+
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+        line-height: 1.8;
+
+        margin-top: 10px;
+
+        letter-spacing: .15em;
+    }
 }
 .hero__details-bottom {
-    display: block;
-
     margin-top: 45px;
+
+    @include max-screen($breakpoint-mobile) {
+        margin-top: 25px;
+
+        justify-content: space-evenly;
+    }
 
     img {
         width: 120px;
 
+        @include max-screen($breakpoint-mobile) {
+            width: 70px;
+        }
+
         &:first-of-type {
             margin-right: 25px;
+
+            @include max-screen($breakpoint-mobile) {
+                margin-right: -50px;
+            }
         }
     }
 }
@@ -79,7 +138,8 @@
 
     display: inline-block;
 
-    width: 300px;
+    width: 303px;
+    height: 73px;
     margin-right: 60px;
     padding: 14px 0 19px;
 
@@ -91,6 +151,16 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    @include max-screen($breakpoint-mobile) {
+        top: 20px;
+
+        width: 100%;
+        height: 69px;
+        margin-right: 0;
+
+        order: 2;
+    }
 
     &:hover {
         opacity: .8;
@@ -120,7 +190,7 @@
                 display: block;
 
                 width: 100%;
-                height: 6px;
+                height: 9px;
 
                 content: '';
 
