@@ -15,7 +15,7 @@
     @include max-screen($breakpoint-mobile) {
         padding-bottom: 130px;
 
-        background-position: -400px center;
+        background-image: url('#{$path-image}/flow-bg-sp.png');
         background-size: cover;
     }
 
