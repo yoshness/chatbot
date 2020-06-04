@@ -2,6 +2,11 @@
     width: 725px;
     margin: 0 auto;
     padding: 40px 0;
+
+    @include max-screen($breakpoint-mobile) {
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 .company__list {
@@ -16,14 +21,28 @@
 
         border-bottom: 1px solid #e7e7e7;
 
+        @include max-screen($breakpoint-mobile) {
+            font-size: 11px;
+
+            padding: 30px 15px 15px;
+        }
+
         &:first-of-type {
             padding-top: 0;
         }
     }
     dt {
         width: 20%;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 30%;
+        }
     }
     dd {
         width: 80%;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 70%;
+        }
     }
 }

@@ -9,7 +9,6 @@
 
     @include max-screen($breakpoint-mobile) {
         position: relative;
-        z-index: 10;
 
         padding: 0;
     }

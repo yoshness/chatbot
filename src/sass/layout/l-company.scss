@@ -5,6 +5,10 @@
 
     text-align: center;
 
+    @include max-screen($breakpoint-mobile) {
+        padding: 100px 0 70px;
+    }
+
     .section-title {
         position: relative;
         z-index: 1;
@@ -15,17 +19,36 @@
 
         border-radius: 80px;
         background-color: #fff;
+
+        @include max-screen($breakpoint-mobile) {
+            width: 87%;
+            margin-bottom: 60px;
+            padding: 15px;
+        }
     }
     .section-title-en {
         font-size: 15px;
 
         margin-bottom: 0;
+
+        @include max-screen($breakpoint-mobile) {
+            font-size: 14px;
+        }
     }
     .section-title-ja {
         font-size: 30px;
 
+        @include max-screen($breakpoint-mobile) {
+            font-size: 25px;
+        }
+
         &:before {
             display: none;
+        }
+    }
+    .l-bubble {
+        @include max-screen($breakpoint-mobile) {
+            width: 85%;
         }
     }
 }
@@ -37,6 +60,16 @@
     height: 624px;
 
     background-image: url('#{$path-image}/decors/company-1.png');
+
+    @include max-screen($breakpoint-mobile) {
+        top: auto;
+        right: -30px;
+        bottom: 100px;
+        left: auto;
+
+        width: 50%;
+        height: 43.5vw;
+    }
 }
 .l-company__decors-right {
     right: 0;
@@ -46,6 +79,16 @@
     height: 403px;
 
     background-image: url('#{$path-image}/decors/company-2.png');
+
+    @include max-screen($breakpoint-mobile) {
+        top: 40px;
+        left: 0;
+
+        width: 51%;
+        height: 47.2vw;
+
+        background-image: url('#{$path-image}/decors/2.png');
+    }
 }
 .l-company__decors-left,
 .l-company__decors-right {

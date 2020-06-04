@@ -27,5 +27,9 @@ html, body {
   // STATE WHEN MENU IS OPEN
   &.is-locked {
     overflow: hidden;
+
+    .header {
+      z-index: 10;
+    }
   }
 }
