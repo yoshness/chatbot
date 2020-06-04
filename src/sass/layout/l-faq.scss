@@ -29,7 +29,7 @@
         &:not(.is-active) {
             .faq-block {
                 color: #fff;
-                background-color: #6000ff;
+                background: linear-gradient(to right, rgba(57,85,255,1) 0%,rgba(73,50,255,1) 40%,rgba(94,2,255,.98) 100%);
             }
             .faq-block__icon {
                 &:before,
@@ -45,8 +45,8 @@
             height: 100%;
 
             color: #fff;
-            border-radius: 100px;
-            background-color: #6000ff;
+            border-radius: 60px;
+            background: linear-gradient(to right, rgba(57,85,255,1) 0%,rgba(73,50,255,1) 40%,rgba(94,2,255,.98) 100%);
 
             @include max-screen($breakpoint-mobile) {
                 border-radius: 35px;

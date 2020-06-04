@@ -12,7 +12,7 @@
 
     color: $base-font-color;
     border: 5px solid #6000ff;
-    border-radius: 50px;
+    border-radius: 60px;
 
     flex-wrap: wrap;
     align-items: center;
@@ -25,6 +25,7 @@
 .faq-block__question {
     font-size: 18px;
     font-weight: normal;
+    line-height: 2;
 
     position: relative;
 
@@ -110,6 +111,7 @@
 }
 .faq-block__answer {
     font-size: 18px;
+    line-height: 2;
 
     position: relative;
 

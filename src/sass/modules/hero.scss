@@ -166,10 +166,8 @@
     text-align: center;
 
     color: #fff;
-    background-image: url('#{$path-image}/hero-button-bg.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(24,176,250,1) 0%,rgba(67,55,253,.98) 100%);
 
     @include max-screen($breakpoint-mobile) {
         top: 20px;
