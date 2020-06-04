@@ -16,7 +16,6 @@
         padding-bottom: 130px;
 
         background-image: url('#{$path-image}/flow-bg-sp.png');
-        background-size: cover;
     }
 
     .l-container {
@@ -165,4 +164,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    @include max-screen($breakpoint-mobile) {
+        right: -130px;
+        bottom: 100px;
+
+        width: 72%;
+        height: 61.3vw;
+    }
 }

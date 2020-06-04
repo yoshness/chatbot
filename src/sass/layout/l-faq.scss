@@ -85,6 +85,13 @@
     height: 577px;
 
     background-image: url('#{$path-image}/decors/9.png');
+
+    @include max-screen($breakpoint-mobile) {
+        top: -150px;
+
+        width: 93%;
+        height: 92.5vw;
+    }
 }
 .l-faq__decors-left,
 .l-faq__decors-right {

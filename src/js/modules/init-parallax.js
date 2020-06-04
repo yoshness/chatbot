@@ -22,7 +22,7 @@ export default function initParallax() {
 	    	if(visible) {
 		    	let diff = scrolled - initY;
 		    	let ratio = Math.round((diff / height) * 100);
-		    	let speed = $(this).data('speed');
+		    	let speed = $(window).width() >= 768 ? $(this).data('speed') : $(this).data('speed') / 3;
 		    	$(this).css('transform', `translateY(${parseInt(-(ratio * 1) * speed)}px)`);
 	    	}
 	  })

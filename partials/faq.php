@@ -57,8 +57,8 @@
 			</li>
 		</ul>
 	</div>
-	<div class="l-faq__decors u-show-pc">
-		<div class="l-faq__decors-left js-parallax" data-speed="1"></div>
+	<div class="l-faq__decors">
+		<div class="l-faq__decors-left u-show-pc js-parallax" data-speed="1"></div>
 		<div class="l-faq__decors-right js-parallax" data-speed="1.5"></div>
 	</div>
 </section>

@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="l-about__decors u-show-pc">
+	<div class="l-about__decors">
 		<div class="l-about__decors-left js-parallax" data-speed="2.4"></div>
 		<div class="l-about__decors-right js-parallax" data-speed=".8"></div>
 	</div>

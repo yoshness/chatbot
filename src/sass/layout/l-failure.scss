@@ -131,6 +131,14 @@
     height: 769px;
 
     background-image: url('#{$path-image}/decors/6.png');
+
+    @include max-screen($breakpoint-mobile) {
+        top: -190px;
+        left: 0;
+
+        width: 76%;
+        height: 84.2vw;
+    }
 }
 .l-failure__decors-right {
     right: 41px;
@@ -140,6 +148,14 @@
     height: 290px;
 
     background-image: url('#{$path-image}/decors/5.png');
+
+    @include max-screen($breakpoint-mobile) {
+        right: -50px;
+        bottom: -48px;
+
+        width: 71%;
+        height: 58.1vw;
+    }
 }
 .l-failure__decors-left,
 .l-failure__decors-right {
