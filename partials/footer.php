@@ -11,7 +11,7 @@
 					<a href="/company">運営会社</a>
 				</li>
 				<li class="footer__nav-item">
-					<a href="#">プライバシポリシー</a>
+					<a href="https://012grp.co.jp/policy" target="_blank">プライバシポリシー</a>
 				</li>
 				<li class="footer__nav-item footer__nav-item--sns u-flex">
 					<a class="footer__icon footer__icon--round" href="#"><i class="icon icon-facebook"></i></a>

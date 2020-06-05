@@ -45,7 +45,7 @@
 				<a href="/company">運営会社</a>
 			</li>
 			<li class="menu__item">
-				<a href="#">プライバシポリシー</a>
+				<a href="https://012grp.co.jp/policy" target="_blank">プライバシポリシー</a>
 			</li>
 			<li class="menu__item menu__item--button">
 				<a class="js-scroll" href="/#js-contact-section">無料相談はこちら</a>
