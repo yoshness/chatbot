@@ -8,7 +8,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">インターネット・IT</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-1.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">CV数が157%増加、受注数も147%増加しました</h3>
@@ -25,7 +25,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">不動産業</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-2.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">チャット経由で400件を案件化！売上につながった</h3>
@@ -42,7 +42,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">インターネット・IT</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-3.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">約1年で1,100件以上の問合せ受注額も1億円以上に</h3>
@@ -59,7 +59,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">インターネット・IT</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-4.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">導入後の顧客満足度80%以上を継続している</h3>
@@ -76,7 +76,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">宅配水</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-5.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">業務の80%以上をチャットに移行し業務効率化に成功</h3>
@@ -93,7 +93,7 @@
 			<div class="testimony">
 				<div class="testimony__top">
 					<span class="testimony__from">人材派遣</span>
-					<img src="public/images/testimony-1.jpg" alt="">
+					<img src="public/images/testimony-6.png" alt="">
 				</div>
 				<div class="testimony__bottom">
 					<h3 class="testimony__title">チャットボットと有人対応を併用し、売上アップ</h3>
