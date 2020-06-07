@@ -2,7 +2,7 @@
 	<div class="l-container">
 		<h2 class="section-title">
 			<span class="section-title-en">FLOW</span>
-			<span class="section-title-ja">チャットボット<br class="u-show-sp">導入までの流れ</span>
+			<span class="section-title-ja"><span>チャットボット</span>導入までの流れ</span>
 		</h2>
 		<ul class="l-flow__list u-flex" id="js-flow-slider">
 			<li class="l-flow__item">

@@ -1,5 +1,6 @@
 .faq-block {
     font-family: $font-hiragino;
+    font-weight: bold;
 
     position: relative;
 
@@ -24,7 +25,6 @@
 }
 .faq-block__question {
     font-size: 18px;
-    font-weight: normal;
     line-height: 2;
 
     position: relative;

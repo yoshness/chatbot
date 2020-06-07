@@ -21,27 +21,25 @@ $path-assets: "/public";
 $path-image: "#{$path-assets}/images/";
 $path-font: "#{$path-assets}/fonts";
 
-$font-noto: 'NotoSansCJKjp-Medium';
-$font-noto-bold: 'NotoSansCJKjp-Bold';
-$font-noto-black: 'NotoSansCJKjp-Black';
+$font-noto: 'NotoSansJP-Medium';
+$font-noto-bold: 'NotoSansJP-Bold';
 $font-montserrat: 'Montserrat-Bold';
 $font-hiragino: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 
 @font-face {
-    font-family: 'NotoSansCJKjp-Medium';
-    src: url('#{$path-font}/NotoSansCJKjp-Medium.otf') format('opentype');
+    font-family: 'NotoSansJP-Medium';
+    src: url('#{$path-font}/NotoSansJP-Medium.otf') format('opentype');
 }
 @font-face {
-    font-family: 'NotoSansCJKjp-Bold';
-    src: url('#{$path-font}/NotoSansCJKjp-Bold.otf') format('opentype');
-}
-@font-face {
-    font-family: 'NotoSansCJKjp-Black';
-    src: url('#{$path-font}/NotoSansCJKjp-Black.otf') format('opentype');
+    font-family: 'NotoSansJP-Bold';
+    src: url('#{$path-font}/NotoSansJP-Bold.otf') format('opentype');
 }
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url('#{$path-font}/Montserrat-Bold.otf') format('opentype');
+    src: url('#{$path-font}/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('#{$path-font}/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('#{$path-font}/Montserrat-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('#{$path-font}/Montserrat-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 $base-font-family: $font-noto;

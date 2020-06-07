@@ -4,7 +4,7 @@
     padding: 115px 0 80px;
 
     @include max-screen($breakpoint-mobile) {
-        padding-top: 260px;
+        padding-top: 210px;
     }
 }
 .l-about__left {
@@ -35,6 +35,7 @@
     }
 }
 .l-about__description {
+    font-weight: bold;
     line-height: 1.8;
 
     margin-bottom: 30px;

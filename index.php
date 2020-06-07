@@ -28,22 +28,23 @@
 
 	<link rel="stylesheet" href="public/css/style.css">
 	<link rel="shortcut icon" type="image/png" href="public/images/favicon.png"/>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WW88HLF');</script>
+	<!-- End Google Tag Manager -->
 </head>
 <body>
-	<?php 
-		$company = $_POST['company'];
-		$person = $_POST['person'];
-		$address = $_POST['address'];
-		$message = $_POST['message'];
-		$formcontent="会社名: $company \n担当名: $person \nメールアドレス: $address \n備考・ご要望: $message";
-		$recipient = "josiah.dabuet@gmail.com, itoshun14@gmail.com";
-		$subject = "Contact Form";
-		$mailheader = "From: admin@cebushun.sakura.ne.jp \r\n";
-
-		if($company && $person && $address) {
-			mail($recipient, $subject, $formcontent, $mailheader);
-		}
-	?>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WW88HLF"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<?php include 'partials/mail.php'; ?>
+	
 	<?php 
 		if($request == '/company') {
 			$header_modifier = 'header--gray';

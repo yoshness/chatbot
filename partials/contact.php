@@ -19,7 +19,7 @@
 					</li>
 					<li class="contact__item contact__item--required">
 						<label for="">メールアドレス</label>
-						<input name="address" type="text" placeholder="例）株式会社チャットボットの窓口" class="js-required-input">
+						<input name="email" type="text" placeholder="例）example@chat-mado.com" class="js-required-input">
 					</li>
 					<li class="contact__item">
 						<label for="">備考・ご要望</label>

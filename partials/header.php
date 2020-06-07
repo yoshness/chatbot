@@ -1,4 +1,4 @@
-<header class="header u-flex <?php echo $header_modifier; ?>">
+<header class="header u-flex <?php echo $header_modifier; ?>" id="js-header">
 	<div class="header__logo u-show-pc">
 		<a href="/">
 			<img src="public/images/logo.png" alt="">
@@ -51,9 +51,9 @@
 				<a class="js-scroll" href="/#js-contact-section">無料相談はこちら</a>
 			</li>
 			<li class="menu__item menu__item--sns u-flex">
-				<a class="menu__icon menu__icon--round" href="#"><i class="icon icon-facebook"></i></a>
-				<a class="menu__icon menu__icon--round" href="#"><i class="icon icon-twitter"></i></a>
-				<a class="menu__icon menu__icon--instagram" href="#"><i class="icon icon-instagram"></i></a>
+				<a class="menu__icon menu__icon--round" href="#" target="_blank"><i class="icon icon-facebook"></i></a>
+				<a class="menu__icon menu__icon--round" href="#" target="_blank"><i class="icon icon-twitter"></i></a>
+				<a class="menu__icon menu__icon--instagram" href="#" target="_blank"></a>
 			</li>
 		</ul>
 	</nav>

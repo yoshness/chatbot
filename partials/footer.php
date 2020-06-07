@@ -14,9 +14,9 @@
 					<a href="https://012grp.co.jp/policy" target="_blank">プライバシポリシー</a>
 				</li>
 				<li class="footer__nav-item footer__nav-item--sns u-flex">
-					<a class="footer__icon footer__icon--round" href="#"><i class="icon icon-facebook"></i></a>
-					<a class="footer__icon footer__icon--round" href="#"><i class="icon icon-twitter"></i></a>
-					<a class="footer__icon footer__icon--instagram" href="#"><i class="icon icon-instagram"></i></a>
+					<a class="footer__icon footer__icon--round" href="#" target="_blank"><i class="icon icon-facebook"></i></a>
+					<a class="footer__icon footer__icon--round" href="#" target="_blank"><i class="icon icon-twitter"></i></a>
+					<a class="footer__icon footer__icon--instagram" href="#" target="_blank"></a>
 				</li>
 			</ul>
 		</nav>

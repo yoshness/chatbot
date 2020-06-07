@@ -2,7 +2,7 @@
 	<div class="l-container l-bubble">
 		<h2 class="section-title">
 			<span class="section-title-en">FAILURE EXAMPLE</span>
-			<span class="section-title-ja">チャットボット<br class="u-show-sp">導入時の失敗例 </span>
+			<span class="section-title-ja"><span>チャットボット</span>導入時の失敗例 </span>
 		</h2>
 		<ul class="l-failure__list u-flex" id="js-failure-slider">
 			<li class="l-failure__item">
