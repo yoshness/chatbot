@@ -4,9 +4,12 @@
 			<span class="section-title-en">FORM</span>
 			<span class="section-title-ja">無料相談フォーム</span>
 		</h2>
+		<?php if ($_SERVER['REQUEST_METHOD'] != 'POST') { ?>
+		<p class="l-contact__description">下記フォームの必須事項をご入力の上、「無料相談する」ボタンをクリックしてください。</p>
+		<?php } ?>
 		<form class="contact" action="/?message=sent" method="POST" id="js-contact-form">
 			<?php if ($_SERVER['REQUEST_METHOD'] == 'POST') { ?>
-				<p class="contact__success" id="js-success-message">メッセージありがとうございます。折り返しご連絡いたします。</p>
+				<p class="contact__success" id="js-success-message">無料相談のご依頼ありがとうございます。<br class="u-show-pc">弊社にて内容を確認の上折り返しご連絡いたします。</p>
 			<?php } else { ?>
 				<ul class="contact__list">
 					<li class="contact__item contact__item--required">
@@ -19,14 +22,14 @@
 					</li>
 					<li class="contact__item contact__item--required">
 						<label for="">メールアドレス</label>
-						<input name="email" type="text" placeholder="例）example@chat-mado.com" class="js-required-input">
+						<input name="email" type="text" placeholder="例）example@chat-mado.com" class="js-required-input js-email-input">
 					</li>
 					<li class="contact__item">
 						<label for="">備考・ご要望</label>
 						<textarea name="message" cols="30" rows="10" placeholder="例）チャットボットの導入を検討しています。導入にあたって知識がないので最適なサービスを教えて欲しいです。"></textarea>
 					</li>
 				</ul>
-				<input type="submit" value="送信する" title="Submit form">
+				<input type="submit" value="無料相談する" title="Submit form" id="js-submit-form">
 			<?php } ?>
 		</form>
 	</div>

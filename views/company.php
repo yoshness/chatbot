@@ -8,18 +8,16 @@
 	<div class="l-container l-bubble">
 		<div class="company">
 			<dl class="company__list u-flex">
-				<dt>会社名</dt>
+				<dt>社名</dt>
 				<dd>株式会社Wiz</dd>
 				<dt>所在地</dt>
 				<dd>〒170-0005 <br class="u-show-sp">東京都豊島区南大塚2-25-15</dd>
-				<dt>電話番号</dt>
-				<dd>03-5877-3926</dd>
 				<dt>事業内容</dt>
-				<dd>IT・通信</dd>
+				<dd>IoT事業<br>ICT事業<br>WiFiプラット事業<br>キャッシュレス事業<br>開店ポータル事業<br>保育サポート事業<br>ライフライン事業<br>求人メディア事業</dd>
 				<dt>代表取締役</dt>
 				<dd>山崎　俊</dd>
-				<dt>営業時間</dt>
-				<dd>9:00～21:00  （WEBでの受付は24時間年中無休）</dd>
+				<dt>HP</dt>
+				<dd><a href="https://012grp.co.jp/" target="_blank">https://012grp.co.jp/</a></dd>
 			</ul>
 		</div>
 	</div>

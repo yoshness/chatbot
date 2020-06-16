@@ -1,8 +1,9 @@
 <footer class="footer">
 	<div class="l-container u-flex">
 		<div class="footer__logo">
-			<a href="/">
-				<img src="public/images/logo.png" alt="">
+			<a href="/" class="u-flex">
+				<img src="public/images/logo-new.png" alt="">
+				<p class="footer__logo-text">あなたに最適なチャットボット<br>サービスをマッチング</p>
 			</a>
 		</div>
 		<nav class="footer__nav">
@@ -14,9 +15,8 @@
 					<a href="https://012grp.co.jp/policy" target="_blank">プライバシポリシー</a>
 				</li>
 				<li class="footer__nav-item footer__nav-item--sns u-flex">
-					<a class="footer__icon footer__icon--round" href="#" target="_blank"><i class="icon icon-facebook"></i></a>
-					<a class="footer__icon footer__icon--round" href="#" target="_blank"><i class="icon icon-twitter"></i></a>
-					<a class="footer__icon footer__icon--instagram" href="#" target="_blank"></a>
+					<a class="footer__icon footer__icon--round" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fcebushun.sakura.ne.jp" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="icon icon-facebook"></i></a>
+					<a class="footer__icon footer__icon--round" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fcebushun.sakura.ne.jp&text=チャットの窓口は、数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。&hashtags=チャットの窓口" target="_blank"><i class="icon icon-twitter"></i></a>
 				</li>
 			</ul>
 		</nav>

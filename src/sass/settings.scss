@@ -21,19 +21,18 @@ $path-assets: "/public";
 $path-image: "#{$path-assets}/images/";
 $path-font: "#{$path-assets}/fonts";
 
-$font-noto: 'NotoSansJP-Medium';
-$font-noto-bold: 'NotoSansJP-Bold';
+$font-noto: 'Noto Sans JP', sans-serif;
 $font-montserrat: 'Montserrat-Bold';
 $font-hiragino: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 
-@font-face {
-    font-family: 'NotoSansJP-Medium';
-    src: url('#{$path-font}/NotoSansJP-Medium.otf') format('opentype');
-}
-@font-face {
-    font-family: 'NotoSansJP-Bold';
-    src: url('#{$path-font}/NotoSansJP-Bold.otf') format('opentype');
-}
+// @font-face {
+//     font-family: 'NotoSansJP-Medium';
+//     src: url('#{$path-font}/NotoSansJP-Medium.otf') format('opentype');
+// }
+// @font-face {
+//     font-family: 'NotoSansJP-Bold';
+//     src: url('#{$path-font}/NotoSansJP-Bold.otf') format('opentype');
+// }
 @font-face {
     font-family: 'Montserrat-Bold';
     src: url('#{$path-font}/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -43,6 +42,6 @@ $font-hiragino: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hira
 }
 
 $base-font-family: $font-noto;
-$base-font-size: 13px;
+$base-font-size: 14px;
 $base-font-color: #000;
 $base-background-color: #f6f7f8;

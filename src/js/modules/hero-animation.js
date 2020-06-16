@@ -29,9 +29,9 @@ export default function heroAnimation() {
 	}
 	else {
 		$(window).on('load', () => {
-		    $heroWrapper.addClass(IS_SHOWN).delay(1000).queue((next) => {
-		        $heroPhone1.addClass(IS_SHOWN).delay(700).queue((next) => {
-		            $heroPhone2.addClass(IS_SHOWN).delay(700).queue((next) => {
+		    $heroWrapper.addClass(IS_SHOWN).delay(300).queue((next) => {
+		        $heroPhone1.addClass(IS_SHOWN).delay(300).queue((next) => {
+		            $heroPhone2.addClass(IS_SHOWN).delay(300).queue((next) => {
 		                $heroTitle.addClass(IS_SHOWN).delay(300).queue((next) => {
 		                  $heroDescription.addClass(IS_SHOWN).delay(300).queue((next) => {
 		                  	$heroBottom.addClass(IS_SHOWN).delay(300).queue((next) => {

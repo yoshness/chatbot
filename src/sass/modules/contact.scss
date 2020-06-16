@@ -1,8 +1,8 @@
 .contact {
     font-family: $font-hiragino;
 
-    width: 575px;
-    margin: 80px auto 0;
+    width: 610px;
+    margin: 70px auto 0;
 
     @include max-screen($breakpoint-mobile) {
         width: 100%;

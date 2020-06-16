@@ -22,8 +22,4 @@ export default function initTabs() {
             $tab.toggle();
         }
     });
-
-    // set default first faq shown
-    $('.js-tab-item:first-child').addClass(ACTIVE_CLASS);
-    $('.js-tab-item:first-child .js-tab-answer').show();
 }

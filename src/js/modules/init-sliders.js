@@ -6,7 +6,8 @@ export default function initSliders() {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 1000,
+		speed: 500,
+		cssEase: 'ease-out',
     	centerMode: true,
   		centerPadding: '20%',
   		responsive: [
@@ -23,7 +24,8 @@ export default function initSliders() {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 1000,
+		speed: 500,
+		cssEase: 'ease-out',
 		mobileFirst: true,
 		responsive: [
 	    	{
@@ -37,7 +39,8 @@ export default function initSliders() {
 		arrows: false,
 		dots: true,
 		infinite: true,
-		speed: 1000,
+		speed: 500,
+		cssEase: 'ease-out',
 		mobileFirst: true,
 		responsive: [
 	    	{

@@ -17,7 +17,7 @@
         font-family: $font-hiragino;
         font-size: 15px;
 
-        padding: 50px 25px 25px;
+        padding: 40px 25px 25px;
 
         border-bottom: 1px solid #e7e7e7;
 
@@ -32,6 +32,8 @@
         }
     }
     dt {
+        line-height: 2;
+
         width: 20%;
 
         @include max-screen($breakpoint-mobile) {
@@ -39,10 +41,22 @@
         }
     }
     dd {
+        line-height: 2;
+
         width: 80%;
 
         @include max-screen($breakpoint-mobile) {
             width: 70%;
+        }
+
+        a {
+            transition: opacity $duration $easing;
+
+            color: #aa88fb;
+
+            &:hover {
+                opacity: .8;
+            }
         }
     }
 }

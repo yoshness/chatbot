@@ -1,9 +1,8 @@
 .hero {
     position: relative;
 
+    margin-top: -1px;
     padding: 200px 0 100px;
-
-    animation: scaleHeroBg 100s infinite 0s ease-in;
 
     background-image: url('#{$path-image}/hero-bg.jpg');
     background-repeat: no-repeat;
@@ -11,7 +10,8 @@
     background-size: 100% 100%;
 
     @include max-screen($breakpoint-mobile) {
-        padding: 110px 30px 0;
+        margin-top: 0;
+        padding: 20px 0 0;
 
         text-align: center;
 
@@ -47,8 +47,6 @@
         z-index: 1;
 
         width: 100%;
-        // height: 0;
-        // margin-top: 200px;
         margin-bottom: -180px;
 
         order: 2;
@@ -65,8 +63,6 @@
 
             @include max-screen($breakpoint-mobile) {
                 top: auto;
-                // bottom: -70px;
-                // margin-top: 50px;
             }
         }
     }
@@ -83,7 +79,12 @@
 }
 .hero__details-logo {
     @include max-screen($breakpoint-mobile) {
-        width: 160px;
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: 20px;
+
+        width: 210px;
         margin: 0 auto 25px;
     }
 }
@@ -98,6 +99,8 @@
     @include max-screen($breakpoint-mobile) {
         font-size: 20px;
         line-height: 1.6;
+
+        margin-top: 60px;
 
         letter-spacing: 0;
     }
@@ -134,15 +137,15 @@
         height: 122px;
 
         @include max-screen($breakpoint-mobile) {
-            width: 70px;
-            height: 71px;
+            width: 100px;
+            height: 101px;
         }
 
         &:first-of-type {
-            margin-right: 25px;
+            margin-right: 125px;
 
             @include max-screen($breakpoint-mobile) {
-                margin-right: -50px;
+                margin: 0 auto;
             }
         }
     }
@@ -309,29 +312,18 @@
     }
 }
 
-@keyframes scaleHeroBg {
-    0 {
-        background-size: 100% 100%;
-    }
-    50% {
-        background-size: 150% 150%;
-    }
-    100% {
-        background-size: 100% 100%;
-    }
-}
 @keyframes moveWave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1);
     }
     50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55);
+        transform: translateX(-25%) translateZ(0) scaleY(.55);
     }
     100% {
         transform: translateX(-50%) translateZ(0) scaleY(1);
     }
 }
-@keyframes scaleLine{
+@keyframes scaleLine {
     0% {
         height: 0;
     }

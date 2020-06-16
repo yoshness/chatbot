@@ -3,21 +3,45 @@
 }
 .footer__logo {
     @include max-screen($breakpoint-mobile) {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
 
         text-align: center;
     }
     img {
-        width: 280px;
+        width: 187px;
+        height: 27px;
+        margin: 4px 16px 0 0;
 
         opacity: .5;
 
         filter: invert(100%);
         @include max-screen($breakpoint-mobile) {
-            width: 230px;
+            width: 140px;
+            height: 100%;
 
             opacity: .25;
         }
+    }
+    .u-flex {
+        @include max-screen($breakpoint-mobile) {
+            justify-content: space-evenly;
+        }
+    }
+}
+.footer__logo-text {
+    font-size: 12px;
+
+    opacity: .5;
+    color: #fff;
+
+    filter: invert(100%);
+    @include max-screen($breakpoint-mobile) {
+        font-size: 11px;
+
+        text-align: left;
+
+        opacity: .25;
     }
 }
 .footer__nav {
@@ -109,6 +133,7 @@
     // MODIFIERS
     &.footer__icon--round {
         font-size: 12px;
+        line-height: 1.5;
 
         height: 25px;
         padding: 2px 5px;
