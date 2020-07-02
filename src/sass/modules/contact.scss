@@ -71,14 +71,14 @@
 
     textarea {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         padding: 25px;
 
         border: 1px solid #e3e3e3;
         background-color: #f9f9f9;
 
         @include max-screen($breakpoint-mobile) {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
         }
 
         ::placeholder {
@@ -88,6 +88,20 @@
 
     // MODIFIER
     &.contact__item--required {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            bottom: -25px;
+            left: 0;
+
+            display: none;
+
+            content: '';
+
+            color: #c00;
+        }
+
         label {
             position: relative;
 
@@ -113,9 +127,61 @@
                 }
             }
         }
+
+        // STATES
+        &.is-missing,
+        &.is-invalid {
+            &:after {
+                display: block;
+
+                content: '';
+            }
+
+            input {
+                border-bottom-color: #c00;
+            }
+        }
+        &.is-missing {
+            &:after {
+                content: '必須項目です';
+            }
+        }
+        &.is-invalid {
+            &:after {
+                content: 'メールアドレスを入力してください';
+            }
+        }
     }
 }
 .contact__success {
     font-family: $base-font-family;
     font-size: 18px;
+}
+
+.contact__privacy {
+    margin-bottom: 20px;
+
+    input[type='checkbox'],
+    p {
+        display: inline-block;
+
+        cursor: pointer;
+    }
+
+    p {
+        @include max-screen($breakpoint-mobile) {
+            font-size: 12px;
+        }
+
+        a {
+            position: relative;
+            top: -2px;
+
+            margin-left: 5px;
+            padding-bottom: 1px;
+
+            color: #50f;
+            border-bottom: 1px solid #e1e0fc;
+        }
+    }
 }

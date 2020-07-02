@@ -9,13 +9,13 @@
 
 	<meta property="og:title" content="チャットボット探すならチャットの窓口">
 	<meta name="description" content="チャットボットの窓口を運営している会社概要をご紹介いたします。チャットボットシステムの導入のことならおまかせください！数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。チャットボットシステムの知識・導入経験豊富な専任のコンシェルジュがチャットボットシステム導入までしっかりサポートいたしますので、お気軽にお問い合わせください。"/>
-	<meta property="og:url" content="http://cebushun.sakura.ne.jp/company" />
+	<meta property="og:url" content="https://chat-mado.com/company" />
 <?php } else { ?>
 	<title>あなたに最適なチャットボットサービスをマッチング｜チャットの窓口</title>
 
 	<meta property="og:title" content="チャットボット探すならチャットの窓口">
 	<meta name="description" content="チャットボットの窓口は、数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。チャットボットシステムの知識・導入経験豊富な専任のコンシェルジュがチャットボットシステム導入までしっかりサポートいたしますので、お気軽にお問い合わせください。"/>
-	<meta property="og:url" content="http://cebushun.sakura.ne.jp" />
+	<meta property="og:url" content="https://chat-mado.com/" />
 <?php } ?>
 
 	<meta charset="UTF-8">
@@ -23,10 +23,10 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" >
 	<meta property="og:description" content="チャットボットの窓口は、数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。チャットボットシステムの知識・導入経験豊富な専任のコンシェルジュがチャットボットシステム導入までしっかりサポートいたしますので、お気軽にお問い合わせください。"/>
 	<meta property="og:site_name" content="チャットの窓口" />
-	<meta property="og:image" content="http://cebushun.sakura.ne.jp/public/images/ogp.jpg">
+	<meta property="og:image" content="https://chat-mado.com/public/images/ogp.jpg">
 
 	<link rel="stylesheet" href="public/css/style.css">
-	<link rel="shortcut icon" type="image/png" href="http://cebushun.sakura.ne.jp/public/images/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="https://chat-mado.com/public/images/favicon.png"/>
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
 
 	<!-- Google Tag Manager -->

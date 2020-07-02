@@ -52,8 +52,8 @@
 				<a class="js-scroll" href="/#js-contact-section">無料相談はこちら</a>
 			</li>
 			<li class="menu__item menu__item--sns u-flex">
-				<a class="menu__icon menu__icon--round" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fcebushun.sakura.ne.jp" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="icon icon-facebook"></i></a>
-				<a class="menu__icon menu__icon--round" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fcebushun.sakura.ne.jp&text=チャットの窓口は、数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。&hashtags=チャットの窓口" target="_blank"><i class="icon icon-twitter"></i></a>
+				<a class="menu__icon menu__icon--round" href="http://www.facebook.com/share.php?u=https%3A%2F%2Fchat-mado.com" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="icon icon-facebook"></i></a>
+				<a class="menu__icon menu__icon--round" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchat-mado.com&text=チャットの窓口は、数あるチャットボットシステムからご希望の条件にピッタリのチャットボットシステムを無料でご紹介いたします。&hashtags=チャットの窓口" target="_blank"><i class="icon icon-twitter"></i></a>
 			</li>
 		</ul>
 	</nav>

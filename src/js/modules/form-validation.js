@@ -3,8 +3,6 @@ export default function formValidation() {
 		  $requiredInput = $('.js-required-input'),
 		  validEmailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-	$submitBtn.prop('disabled', true);
-
 	function checkIfFormValid() {
 		let isValid = true;
 		$requiredInput.each(function() {
